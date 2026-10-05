@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback | Uthan Tabla Classes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Shared header/navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="logo-mark">U</span>
+        <span>
+          <span class="brand-name">Uthan Tabla Classes</span>
+          <span class="brand-tagline">Learn. Practice. Perform.</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu"
+              aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="registration.html">Registration</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="practice.html">Practice Papers</a>
+        <a href="feedback.html" aria-current="page">Feedback</a>
+        <a href="contact.html">Contact</a>
+        <a class="button" href="registration.html">Join a Class</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Your thoughts matter</p>
+          <h1>Share Your Feedback</h1>
+          <p>Share your experience with the Tabla classes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Help improve the learning experience</p>
+          <h2>Feedback Form</h2>
+        </div>
+
+        <form class="form-card"
+              data-message="Thank You for Your Feedback!">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="feedback-name">Name</label>
+              <input id="feedback-name" name="name" type="text"
+                     placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="feedback-email">Email</label>
+              <input id="feedback-email" name="email" type="email"
+                     placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-group form-group-full">
+              <label for="feedback-course">Course</label>
+              <select id="feedback-course" name="course" required>
+                <option value="">Choose a course</option>
+                <option value="beginner">Beginner Tabla</option>
+                <option value="intermediate">Intermediate Tabla</option>
+                <option value="advanced">Advanced Tabla</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <fieldset class="form-group form-group-full">
+              <legend class="rating-legend">Rating</legend>
+              <div class="rating-options">
+                <label><input type="radio" name="rating" value="1" required> ★ 1</label>
+                <label><input type="radio" name="rating" value="2"> ★ 2</label>
+                <label><input type="radio" name="rating" value="3"> ★ 3</label>
+                <label><input type="radio" name="rating" value="4"> ★ 4</label>
+                <label><input type="radio" name="rating" value="5"> ★ 5</label>
+              </div>
+            </fieldset>
+
+            <div class="form-group form-group-full">
+              <label for="feedback-message">Feedback</label>
+              <textarea id="feedback-message" name="feedback"
+                        placeholder="Write your feedback here" required></textarea>
+            </div>
+
+            <div class="form-group form-group-full">
+              <button class="button" type="submit">Submit Feedback</button>
+              <p class="form-message" role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Uthan Tabla Classes</h3>
+          <p>Learn Tabla through guided lessons, rhythm, and regular practice.</p>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="practice.html">Practice Papers</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <div class="footer-links">
+            <span>Phone: [Phone Number]</span>
+            <span>Email: [Email Address]</span>
+            <a href="contact.html">Contact page</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 Uthan Tabla Classes. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

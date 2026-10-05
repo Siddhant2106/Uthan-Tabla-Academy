@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration | Uthan Tabla Classes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Shared header/navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="logo-mark">U</span>
+        <span>
+          <span class="brand-name">Uthan Tabla Classes</span>
+          <span class="brand-tagline">Learn. Practice. Perform.</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu"
+              aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="registration.html" aria-current="page">Registration</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="practice.html">Practice Papers</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="contact.html">Contact</a>
+        <a class="button" href="registration.html">Join a Class</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Take the first step</p>
+          <h1>Register for a Tabla Class</h1>
+          <p>
+            Fill in this form to share your learning preferences.
+            The form shows a confirmation on this page; it does not send
+            your information to a database.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Student details</p>
+          <h2>Class Registration</h2>
+        </div>
+
+        <form class="form-card"
+              data-message="Registration Submitted Successfully!">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input id="full-name" name="fullName" type="text"
+                     placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email"
+                     placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input id="phone" name="phone" type="tel"
+                     placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input id="age" name="age" type="number"
+                     min="1" max="120" placeholder="Enter your age" required>
+            </div>
+
+            <div class="form-group">
+              <label for="course">Course Selection</label>
+              <select id="course" name="course" required>
+                <option value="">Choose a course</option>
+                <option value="beginner">Beginner Tabla — 3 Months</option>
+                <option value="intermediate">Intermediate Tabla — 6 Months</option>
+                <option value="advanced">Advanced Tabla — 12 Months</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="learning-mode">Learning Mode</label>
+              <select id="learning-mode" name="learningMode" required>
+                <option value="">Choose a learning mode</option>
+                <option value="in-person">In person</option>
+                <option value="online">Online</option>
+                <option value="not-sure">Not sure yet</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="experience">Previous Tabla Experience</label>
+              <select id="experience" name="experience" required>
+                <option value="">Choose an option</option>
+                <option value="none">No previous experience</option>
+                <option value="some">Some experience</option>
+                <option value="regular">I have practised regularly</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="timing">Preferred Class Timing</label>
+              <input id="timing" name="timing" type="text"
+                     placeholder="For example, weekday evenings" required>
+            </div>
+
+            <div class="form-group form-group-full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message"
+                        placeholder="Anything you would like the teacher to know?"></textarea>
+            </div>
+
+            <div class="form-group form-group-full">
+              <button class="button" type="submit">Submit Registration</button>
+              <p class="form-message" role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Uthan Tabla Classes</h3>
+          <p>Learn Tabla through guided lessons, rhythm, and regular practice.</p>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="practice.html">Practice Papers</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <div class="footer-links">
+            <span>Phone: [Phone Number]</span>
+            <span>Email: [Email Address]</span>
+            <a href="contact.html">Contact page</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 Uthan Tabla Classes. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

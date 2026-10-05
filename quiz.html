@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla Quiz | Uthan Tabla Classes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Shared header/navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="logo-mark">U</span>
+        <span>
+          <span class="brand-name">Uthan Tabla Classes</span>
+          <span class="brand-tagline">Learn. Practice. Perform.</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu"
+              aria-expanded="false">
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="registration.html">Registration</a>
+        <a href="quiz.html" aria-current="page">Quiz</a>
+        <a href="practice.html">Practice Papers</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="contact.html">Contact</a>
+        <a class="button" href="registration.html">Join a Class</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Test what you know</p>
+          <h1>Tabla Knowledge Quiz</h1>
+          <p>Answer 10 beginner-friendly questions about Tabla and rhythm.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="quiz-card" id="quiz-container">
+          <p id="quiz-progress-text">Question 1 of 10</p>
+          <div class="quiz-progress"
+               role="progressbar"
+               aria-label="Quiz progress"
+               aria-valuemin="0"
+               aria-valuemax="10"
+               aria-valuenow="1">
+            <div class="quiz-progress-bar" id="quiz-progress-bar"></div>
+          </div>
+
+          <div id="quiz-content">
+            <!-- JavaScript adds each question here. -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Uthan Tabla Classes</h3>
+          <p>Learn Tabla through guided lessons, rhythm, and regular practice.</p>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="practice.html">Practice Papers</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <div class="footer-links">
+            <span>Phone: [Phone Number]</span>
+            <span>Email: [Email Address]</span>
+            <a href="contact.html">Contact page</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 Uthan Tabla Classes. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
